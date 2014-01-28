@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,user-scalable=no"/>
+    
+    <link rel="stylesheet" href="tizen-web-ui-fw/latest/themes/tizen-white/tizen-web-ui-fw-theme.css" name="tizen-theme"/>
+    <title>LAUNCH</title>
+    <!--NOTE:
+        jquery.js and web-ui-fw.js must be included.
+        DO NOT REMOVE below code!
+    -->
+    <script src="tizen-web-ui-fw/latest/js/jquery.js"></script>
+    <script src="tizen-web-ui-fw/latest/js/tizen-web-ui-fw-libs.js"></script>
+    <script src="tizen-web-ui-fw/latest/js/tizen-web-ui-fw.js"
+        data-framework-theme="tizen-white"></script>
+
+    <!--NOTE:
+        Additional scripts and css files are to be placed here.
+        You can use jQuery namespace($) and all functionalities in jQuery
+        in your script.  For example:
+
+            <script src="main.js"></script>
+            <link rel="stylesheet" href="my.css">
+    -->
+    <script type="text/javascript" src="./js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header" data-position="fixed">
+            <h1>Out of this world!</h1>
+        </div><!-- /header -->
+
+        <div data-role="content">
+            <div>
+                <h2>Launch</h2>
+                <p>Here you can change launch trajectory, speed, etc.</p>
+            </div>
+            <div>
+                <div data-role="collapsible" data-collapsed="true">
+                    <h3>More in this section</h3>
+                    <ul data-role="listview">
+                        <li class="ui-li-1line ui-li-dialogue" data-expandable="true" id="section" data-initial-expansion="true">Details</li>
+                        <li class="ui-li-1line ui-li-dialogue" data-expanded-by="section"><a href="index.html">Top Menu</a></li>
+                        <li class="ui-li-1line ui-li-dialogue" data-expanded-by="section"><a href="section1.html">Launch Variables</a></li>
+                        <li class="ui-li-1line ui-li-dialogue" data-expanded-by="section"><a href="section2.html">Items</a></li>
+                    </ul>
+                </div>
+            </div>
+        </di
+        <!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+            <p></p>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+</body>
+</html>
