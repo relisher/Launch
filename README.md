@@ -12,6 +12,7 @@ Rules engine that calculates whether or not a rocket will launch, with various i
 CURRENT/PROPOSED(*) MENU ITEMS
 
 Top Menu
+
 Items
   Fuel *
     Gasoline
@@ -20,6 +21,7 @@ Items
   Rocket Length *
   Rocket Width *
   DISCUSS ADDITIONAL ITEMS
+  
 Launch Variables
   Planet (ie gravity) *
     Earth *
